@@ -1,0 +1,34 @@
+
+@media(max-width: 994px){
+    div p{
+        font-size: 1.9rem;
+    }
+
+    
+    .container{
+        height: 840px;
+        
+    }
+    .hdr{
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;   
+    }
+    .p1{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .container{
+        height: 1700px;
+    }
+    
+
+}
+
+
+
+
+

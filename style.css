@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+    
+}
+.container{
+    width: 100%;
+    height: 900px;
+    
+    background-color: aquamarine;
+    padding: 20px 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-img{
+    width: 140px;
+    height: 140px;
+    border: 3px solid white;
+    float: left;
+    border-radius: 50%;
+}
+.hdr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.profile-img{
+    float: left;
+}
+.bio{
+    float: left;
+}
+
+.gmail a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.gmail a:hover{
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+}
+.ph a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.ph a:hover{
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+}
+.fb a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.fb a:hover{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+.tg a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.tg a:hover{
+    text-decoration: underline;
+    color: cyan;
+    font-weight: bold;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: solid black 0.2rem;
+    width: 100%;
+    margin: 20px auto;
+}
+.right-div{
+    
+ font-weight: bold;
+}
+.contact2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.contact2 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.EQ2{
+    font-weight: bold;
+}
+.skills{
+    font-weight: bold;
+}
+.hobbies{
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    height: 105px;
+}
+.ft{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ft p{
+    color: #EEE;
+    margin-top: 20px;  
+}
+.ft-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.wp a{ 
+    text-decoration: none;
+    color: #EEE;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.wp a:hover{ 
+    text-decoration: Underline;
+    color: green;
+    font-weight: bold;
+}
+.ig a{ 
+    text-decoration: none;
+    color: #EEE;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.ig a:hover{ 
+    text-decoration: Underline;
+    color: palevioletred;
+    font-weight: bold;
+}
+div p{
+    font-size: 2rem;
+    font-weight: 1rem;
+
+}
+.bio h1,h3{
+    font-size: 2rem;
+}
